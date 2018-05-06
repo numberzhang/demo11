@@ -15,5 +15,6 @@ public class MyWebAppConfigurer extends WebMvcConfigurationSupport {
      registry.addInterceptor(new MyInterceptor()).addPathPatterns("/**");
      //registry.addInterceptor(new MyInterceptor2()).addPathPatterns("/**");
      super.addInterceptors(registry);
+     System.out.print("hahh");
      }
 }
