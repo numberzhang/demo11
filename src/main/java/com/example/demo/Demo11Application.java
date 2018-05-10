@@ -19,5 +19,6 @@ public class Demo11Application {
 	 }*/
 	public static void main(String[] args) {
 		SpringApplication.run(Demo11Application.class, args);
+		System.out.print("hello world");
 	}
 }
